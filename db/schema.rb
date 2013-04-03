@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(:version => 20120705175852) do
     t.string   "status"
     t.string   "school"
     t.string   "name"
+    t.string   "link"
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -24,11 +24,12 @@
 <algnleft><b>Professor:</b> <%= @user.name %></algnleft></br>
 <algnleft><b>Time:</b> <%= @user.school %></algnleft></br>  
 <algnleft><b>Course Description:</b> <%= @user.location %></p></algnleft>
+</br>
+<algnleft><b>Video Link:</b> <a href="<%=@user.link%>"><%= @user.name %> Class</a></p></algnleft>
 </section>
 </br>
-<section class="padding">
-<a href="/video" class="btn btn-success">Video</a>
-</section>
+
+
 </br>
 </div>
 <div class="span8 bottom">
