@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby "2.0"
+ruby "2.0.0"
 gem 'rails', '3.2.11'
 gem 'will_paginate'
 gem 'bootstrap-sass', '2.1'
